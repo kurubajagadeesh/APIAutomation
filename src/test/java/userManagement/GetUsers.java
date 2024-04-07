@@ -40,7 +40,7 @@ import utils.SoftAssertionUtil;
 public class GetUsers extends BaseTest {
 	SoftAssertionUtil softAssertion=new SoftAssertionUtil();
 
-	@Test(groups = "SmokeSuite")
+	@Test(description="validate the response status code",groups = "SmokeSuite")
 	public void getUserData() {
 		ExtentReport.extentlog=ExtentReport.extentreport.startTest("validateResponseHasItems","response body should displayed and status code is 200");
 		given()
