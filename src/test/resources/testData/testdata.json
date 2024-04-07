@@ -1,0 +1,7 @@
+{
+    "username" : "postman",
+    "password" : "password",
+    "endPoint" : "users",
+    "languages" : ["Java","Python","Selenium"],
+    "contact" : ["email :jagadeesh@gamil.com","phone:1234567890","city:Bangalore" ]
+}
